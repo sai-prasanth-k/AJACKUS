@@ -11,5 +11,5 @@ export const HomePage = styled.div`
 `;
 
 export const AppName = styled.h1`
-  padding: 50px;
+  padding: 10px;
 `;
