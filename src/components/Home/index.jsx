@@ -1,10 +1,10 @@
-import HomePage from './styledComponent'
+import {HomePage, AppName} from './styledComponent'
 import UsersList from '../UsersList';
 
 const Home = () => {
     return (
         <HomePage>
-            <h1 className='app-name'>Sai's User Dashboard</h1>
+            <AppName>Sai's User Dashboard</AppName>
             <UsersList />
         </HomePage>
     )

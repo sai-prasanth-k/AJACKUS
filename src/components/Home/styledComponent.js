@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HomePage = styled.div`
+export const HomePage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,4 +9,6 @@ const HomePage = styled.div`
 
 `;
 
-export default HomePage;
+export const AppName = styled.h1`
+  padding: 50px;
+`;
