@@ -14,7 +14,7 @@ import { PostFormContainer, FormPage, InputField, PostButton } from './styledCom
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
-        })
+        });
     }
 
     const createNewUser = async (event) => {
